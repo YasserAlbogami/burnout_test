@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لنفسك حق — Burnout Awareness Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="hadith.js"></script>
+    <script src="app.js" defer></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="brown-islamic-dome-icon-free-vector.jpg"
+    />
+  </head>
+  <body>
+    <div class="geo-stripe"></div>
+    <header>
+      <a class="header-brand" href="index.html">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 21C12 21 3 14.5 3 8.5C3 5.42 5.42 3 8.5 3C10.24 3 11.91 3.81 13 5.08C14.09 3.81 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 14.5 12 21 12 21Z"
+              opacity=".3"
+            />
+            <path
+              d="M3 12H7L9 8L12 16L15 10L17 12H21"
+              stroke="#fff"
+              stroke-width="1.8"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div>
+          <div class="brand-title" id="brand-title">لنفسك حق</div>
+          <div class="brand-sub" id="brand-sub">Burnout Awareness Tool</div>
+        </div>
+      </a>
+      <button class="lang-toggle" id="lang-toggle" onclick="toggleLang()">
+        English
+      </button>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-arabesque">❧</div>
+        <h1 class="hero-title" id="hero-title">لنفسك حق</h1>
+        <p class="hero-subtitle" id="hero-subtitle">
+          أداة وعي مبكر بالاحتراق الوظيفي مستلهمة من آيات القرآن الكريم وتعاليم
+          النبي صلى الله عليه وسلم
+        </p>
+        <p class="hero-goal" id="hero-goal">
+    
+        </p>
+        <div class="hero-badge">
+          <span>⚡</span>
+          <span id="hero-badge-text">تقييم سريع ١٢ سؤالاً</span>
+        </div>
+        <br />
+        <button class="btn-primary" onclick="startAssessment()" id="btn-start">
+          ابدأ التقييم
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <p class="disclaimer" id="footer-disclaimer">
+        <strong>تنبيه مهم:</strong> هذه الأداة للتوعية المبكرة فقط وليست تشخيصاً
+        طبياً أو نفسياً. إذا كنت تعاني من أعراض شديدة، يُرجى التواصل مع متخصص.
+      </p>
+    </footer>
+  </body>
+</html>
